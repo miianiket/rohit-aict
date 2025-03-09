@@ -1,0 +1,27 @@
+.app-container {
+  display: flex; /* Use flexbox for layout */
+  height: 100vh; /* Make the container full viewport height */
+  width: 100vw;
+}
+
+.sidebar {
+  width: 100px; /* Set a width for the sidebar */
+  background-color: #F2BFA4  ; /* Example background color */
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 40px;
+}
+
+.content {
+  flex: 1; /* Allow content to take up remaining space */
+  background-color: #F5E7DE;
+  padding: 20px;
+  overflow-y: auto;
+}
